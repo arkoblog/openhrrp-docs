@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    about_the_project
+   questions_and_concerns
 
 
 Indices and tables
