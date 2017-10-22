@@ -10,7 +10,7 @@ Questions
 
 1. Even though the survey was conducted in phases, tha data provided has a single table for all of the buildings. 
 	
-	a. Are the district/vdc/mun codes used in the data ll based on the old administrative boundaries?
+	a. Are the district/vdc/mun codes used in the data all based on the old administrative boundaries?
 
 	Our assumption is that they are. Need to verify with CBS.
 
