@@ -7,8 +7,64 @@ The purpose of this document is to reconcile table related information present i
 Bulding table
 =============
 
+Summary
+-------
+
+	1. Codes vs. Labels: The current dataset has codes assigned for each value of a categorical variable. For instance, the variable **gd_floor** which indicates the type of ground floor has the following codes associated with it:
+		
+		a. 1, which denotes "Mud"
+		b. 2, which denotes "Brick/Stone"
+		c. 3, which denotes "Timber"
+		d. 4, which denotes "RC"
+		e. 5, which denotes "Other"
+
+		An alternate way of storing this information would be in the form of labels, as opposed to numbers. That is,
+
+		a. mud, which denotes "Mud"
+		b. brick_stone, which denotes "Brick/Stone"
+		c. timber, which denotes "Timber"
+		d. rc, which denotes "RC"
+		e. other, which denotes "Other"
+
+		Storing them as numbers require less space, but it comes at the cost of the user needing a reference for understanding what the number means.
+
+		**What do we want to do?**
+
+
+	2. Variable Types: A brief examination of the survey questionnaire suggests that questions that were asked fall in either one of the following two categories:
+
+		a. Single select questions: Where the surveyor selects only one out of many options provided.
+		b. Multi select questions: Where the surveyour can select one or more answers out of the many options provided.   
+
+		For every single select question in the survey, there is only one corresponding column in the data that capture the answer for a particular building. Data cleaning effort for these variables is minimal, depending on the route we take as per point (1)
+
+	3. Multi select questions: Some of the questions, because of their multiselect nature has more than one column associated with them):
+
+		a. Superstructure type has 11 columns ranging from **sup_str1** to **sup_str11** 
+		b. Type of geotechnical risk has 7 columns ranging from **gersk_ls1** to **gersk_ls3** 
+		c. Type of secondary use has 10 columns ranging from **secuse_ls1** to **secuse_ls10** 
+
+		For these questions, additional data cleaning work would be required to make information more usable.
+
+
+	4. Missing Definitions: Not all of the columns had their corresponding definitions in the data dictionary provided by CBS. Whilst is was clear what information the column contained for a few of the columns (dist, vcode, vdcmun, ward, EA, howner_sn, house_sn, legl_own) based on their names, further information is needed for the following columns:
+
+		a. **delam1**, 
+		b. **delam2**, 
+		c. **delam3**,
+		d. **fam_cn**,
+		e. **hgt_pre**,
+		f. **hgt_pos**,
+		g. **pl_area** (I assume this refers to the plinth area of the building, but how is it captured (numeric vs. categorical)? )
+		h. **age** (I assume that this variable refers to the age of the building, but how is it captured (numeric vs. categorical))
+		i. **floor_pos**,
+		j. **floor_pre**,
+
+
+
+
 Methodology
-^^^^^^^^^^^
+-----------
 
 *This section contains code used for the analysis, please jump to the next section for results*
 
@@ -45,34 +101,7 @@ A small subset of 5000 rows were taken as an input for analysis. All variables i
 
 
 Results
-^^^^^^^
-
-1. Not all of the columns had their corresponding definitions in the data dictionary provided by CBS. Whilst is was clear what information the column contained for a few of the columns (dist, vcode, vdcmun, ward, EA, howner_sn, house_sn, legl_own) based on their names, further information is needed for the following columns:
-
-	* **delam1**, 
-	* **delam2**, 
-	* **delam3**,
-	* **fam_cn**,
-	* **hgt_pre**,
-	* **hgt_pos**,
-	* **pl_area** (I assume this refers to the plinth area of the building, but how is it captured (numeric vs. categorical)? )
-	* **age** (I assume that this variable refers to the age of the building, but how is it captured (numeric vs. categorical))
-	* **floor_pos**,
-	* **floor_pre**,
-
-2. Some columns have null values despite having a code for NA (9 usually). These are mostly damage assessment columns such as, but not limited to:
-
-	* Diagonal Cracking
-	* Corner Wall Seperation, etc.
-
-3. Some of the questions, because of their multiselect nature has more than one column associated with them):
-
-	* Superstructure type has 11 columns ranging from **sup_str1** to **sup_str11** 
-	* Type of geotechnical risk has 7 columns ranging from **gersk_ls1** to **gersk_ls3** 
-	* Type of secondary use has 10 columns ranging from **secuse_ls1** to **secuse_ls10** 
-
-	*It is required to convert information contained in these tables to binary flag variables for ease of use.* 
-
+-------
 
 The table below outlines current status of the same:
 
