@@ -5,9 +5,18 @@ Questions and Concerns
 The purpose of this document is to highlight any key questions and/or concerns that we will need to address during the course of this project.
 
 
+Questions
+#########
+
+1. Even though the survey was conducted in phases, tha data provided has a single table for all of the buildings. 
+	
+	a. Are the district/vdc/mun codes used in the data ll based on the old administrative boundaries?
+
+	Our assumption is that they are. Need to verify with CBS.
+
+
 Administrative restructuring and its implications
 #################################################
-
 
 
 What?

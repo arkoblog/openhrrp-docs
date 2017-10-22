@@ -42,7 +42,7 @@ For example, house serial number increments when a house owner has multiple buil
 	1. **howner_sn: House Owner Serial Number**
 		* *Increments from*: all administrative codes (ward, vdcmun, ward, ea)
 		* *Connects to*: house_sn
-		* *Comments*: This code identifies house owners within an administrative unit (multiple ownership not permitted). It allows buildings to be tied to a specific owner. Each building has a house owner, but not every building has a /textitunique house owner (multiples are allowed).
+		* *Comments*: This code identifies house owners within an administrative unit (multiple ownership not permitted). It allows buildings to be tied to a specific owner. Each building has a house owner, but not every building has a unique house owner (multiples are allowed).
 
 	2. **house_sn: House Serial Number**
 		* *Increments from*: howner_sn
