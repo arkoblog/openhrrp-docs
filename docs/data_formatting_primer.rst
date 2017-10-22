@@ -54,7 +54,7 @@ For example, house serial number increments when a house owner has multiple buil
 		* *Connects to*: mem_sn
 		* *Comments*: This code identifies a particular household within a building. All households are tied to a building, but households may be tied to the same building.
 
-	2. **mem_sn: Household Member Serial Number**
+	4. **mem_sn: Household Member Serial Number**
 		* *Increments from*: hhd_sn
 		* *Connects to*: N/A
 		* *Comments*: This code identifies the family member within a particular household.
@@ -107,3 +107,9 @@ After working with this dataset for four months, here are a few of my recommenda
 
 
 	3. Consider data usage in formatting decisions. This is particularly relevant where duplications are being added to the data. For example, if buildings are joined to households with a left join, duplicate building records will be added. If building statistics are calculated from this new table (without accounting for duplicates), they will not be correct. Ultimately this is also the responsibility of the user, but consider what might be intuitive and might not be.
+
+
+:Authors:
+	Bradley Wison
+
+:Version: 1.0 of 2017/10/22
