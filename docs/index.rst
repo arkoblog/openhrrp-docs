@@ -15,10 +15,4 @@ Contents:
    questions_and_concerns
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
