@@ -22,10 +22,7 @@ At this point, we do not know if:
 Why is this a problem?
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Case Study**
-
-
-::
+	**Case Study**
 
 	Lekhnath's house was originally located in Ward No 3, in Dhading Besi, Dhading. During the survey, the surveyor marked Lekhnath as a resident of Ward 3, Dhading Besi, Dhading. After the administrative restructuring, the GoN decided to merge Wards 3 & 5 to form the new Ward no 13, Nilkantha Municipality.
 
