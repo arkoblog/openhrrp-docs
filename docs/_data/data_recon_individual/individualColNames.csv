@@ -13,9 +13,9 @@
 12,present,Yes,Member's Presence in Household,Categorical,1-4,,
 13,age,No,Member’s age,Numerical,,,Data has age 0. May be for infants
 14,disablty,Yes,Disability,Categorical,1-6,,What does card(red/blue..) mean ?
-15,brth_reg,Yes,Birth Registration,Categorical,1-2,,Data has NA for age > 5
-16,edu_levl,Yes,Completed Education Level,Categorical,0 through 15 and 90 to 92,,Data has NA for age <=5
-17,marital,Yes,Marital Status,Categorical,1-5,,Data has NA for age <10
+15,brth_reg,Yes,Birth Registration,Categorical,1-2,,Data has NA for age > 5 . brth_reg is also NA for ages <=5 for some cases
+16,edu_levl,Yes,Completed Education Level,Categorical,0 through 15 and 90 to 92,,Data has NA for age <5 .  edu_levl is also NA for ages > 10 for some cases
+17,marital,Yes,Marital Status,Categorical,1-5,,Data has NA for age <10 . Marital status is also NA for ages > 10 for some cases
 18,security1,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
 19,security2,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
 20,security3,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
@@ -23,5 +23,5 @@
 22,security5,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
 23,security6,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
 24,security7,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
-25,security8,Yes,Social Security Benificiaries,Categorical,1-9,Yes,Value of “No” refers that Social security benefit is not received
+25,security8,Yes,Social Security Benificiaries,Categorical,1-9,Yes,Value of 8 means “No” which refers that Social security benefit is not received
 26,security9,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
