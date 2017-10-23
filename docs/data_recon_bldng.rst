@@ -1,10 +1,4 @@
-===================
-Data Reconciliation
-===================
-
-The purpose of this document is to reconcile table related information present in the documents shared by CBS, with that on the SAV files. 
-
-Bulding table
+Building table
 =============
 
 Summary
@@ -60,7 +54,36 @@ Summary
 		i. **floor_pos**,
 		j. **floor_pre**,
 
+		After examination of the survey qyuestionnaire, it appears most of the above information comes from a single table in the questionnaire:
 
+		.. image:: _data/data_recon_building/missing_defs.jpg
+
+
+	5. Damage Assessment Variables: Information for damage assessment is spread across groups of variables. For example, for users to get complete information on building foundation damage, they will have to go through three variables viz. **dm_fndtn1**, **dm_fndtn2**, **dm_fndtn3**. Other variables that have a similar nature include:
+
+		a. **dm_roof1**, **dm_roof2**, **dm_roof3**
+		b. **corn_sep1**, **corn_sep2**, **corn_sep3**
+		c. **diag_cr1**, **diag_cr2**, **diag_cr3**
+		d. **pl_fail1**, **pl_fail2**, **pl_fail3**
+		e. **op_fail1**, **op_fail2**, **op_fail3**
+		f. **op_fl_nl1**, **op_fl_nl2**, **op_fl_nl3**
+		g. **dm_gabl1**, **dm_gabl2**, **dm_gabl3**
+		h. **delam1**, **delam2**, **delam3**
+		i. **col_fail1**, **col_fail2**, **col_fail3**
+		j. **beam_fl1**, **beam_fl2**, **beam_fl3**
+		k. **str_case1**, **str_case2**, **str_case3**
+		l. **parapet1**, **parapet2**, **parapet3**
+		m. **clad_glz1**, **clad_glz2**, **clad_glz3**
+		n. **clad_glz1**, **clad_glz2**, **clad_glz3**
+		 
+		Furthermore, information for "No damage" is contained as a categorical value within the first out of three variable, as illustrated by the picure below.
+
+		.. image:: _data/data_recon_building/dm_fndtn1.png
+
+		Suggestions for improvement:
+
+		1. Rename column headers to include severity ie. dm_fndtn_severe, dm_fndtn_moderate, dm_fndtn_insignfcant
+		2. Seperate information about no damage to a separate flag variable, dm_fndtn_flag 
 
 
 Methodology
@@ -106,5 +129,4 @@ Results
 The table below outlines current status of the same:
 
 .. csv-table::
-   :widths: 10 10 20 10 10 10 30
-   :file: _data/buildingColNames_wStatus_221017.csv
+   :file: _data/data_recon_building/buildingColNames_wStatus_221017.csv
