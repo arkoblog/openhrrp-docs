@@ -10,10 +10,10 @@ Summary
 	4. Martial status if considered for the members having age>=10 years
 	5. Social security field is spread across 9 columns(security1 to security9) and filled with appropriate option that were applicable. Similar to other tables, further work in needed on this to make proper use of this. May be we can make use of flags rather than code numbers.
 
-Results
+Table columns
 -------
 
-The table below outlines current status of the same:
+Following are the columns for the Individual table.
 
 .. csv-table::
    :file: _data/data_recon_individual/individualColNames.csv
