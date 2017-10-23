@@ -1,0 +1,27 @@
+,colnames(individual),Present in data dictionary,Name,Type,Range,Is Multiselect ?,Comments
+1,dist,No,District code,,,,
+2,vcode,No,,,,,
+3,vdcmun,No,,,,,
+4,ward,No,,,,,
+5,EA,No,,,,,
+6,howner_sn,No,House owner serial number,,,,
+7,house_sn,No,,,,,
+8,hhd_sn,No,,,,,
+9,mem_sn,No,Member serial number,Numerical,,,"The combination of howner_sn, house_sn, hhd_sn, mem_sn uniquely defines an individual member for a house owner."
+10,gender,Yes,Gender,Categorical,1-3,,
+11,hh_rel,Yes,Member's Relationship with Household Head,Categorical,1-10,,1 Refers to the household head. Is household head information repeated in Household table and individual table ? 
+12,present,Yes,Member's Presence in Household,Categorical,1-4,,
+13,age,No,Member’s age,Numerical,,,Data has age 0. May be for infants
+14,disablty,Yes,Disability,Categorical,1-6,,What does card(red/blue..) mean ?
+15,brth_reg,Yes,Birth Registration,Categorical,1-2,,Data has NA for age > 5
+16,edu_levl,Yes,Completed Education Level,Categorical,0 through 15 and 90 to 92,,Data has NA for age <=5
+17,marital,Yes,Marital Status,Categorical,1-5,,Data has NA for age <10
+18,security1,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+19,security2,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+20,security3,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+21,security4,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+22,security5,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+23,security6,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+24,security7,Yes,Social Security Benificiaries,Categorical,1-9,Yes,
+25,security8,Yes,Social Security Benificiaries,Categorical,1-9,Yes,Value of “No” refers that Social security benefit is not received
+26,security9,Yes,Social Security Benificiaries,Categorical,1-9,Yes,

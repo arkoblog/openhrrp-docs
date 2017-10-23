@@ -9,4 +9,4 @@ The purpose of this document is to reconcile table related information present i
    :maxdepth: 2
 
    data_recon_bldng
-
+   data_recon_individual
