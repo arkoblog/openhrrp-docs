@@ -26,6 +26,7 @@ Summary
 			* **oc_ch_cn**:   Count of  people who had to change their occupation post earthquake.
 			
 			Further investigation is needed as to what these columns mean. 
+		
 		b. There were two additional variables without any definitions. These columns only contained NAs for the subset of data that we analyzed. **respreqd** and **resposqd** 
 
 	3. Multiselect Variables: The pre/post variables **ast_pre** and **ast_pos** are multiselect variables and require treatment

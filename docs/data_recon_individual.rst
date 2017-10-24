@@ -1,5 +1,5 @@
 Individual table
-=============
+================
 
 Summary
 -------
@@ -14,7 +14,7 @@ Summary
 	8. Data has value 0 for age column. May be for infants
 
 Table columns
--------
+-------------
 
 Following are the columns for the Individual table.
 
