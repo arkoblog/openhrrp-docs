@@ -17,4 +17,5 @@ The purpose of this document is to reconcile table related information present i
    data_recon_death
    data_recon_injured_missing
    updates
+   next_steps
 
