@@ -16,4 +16,5 @@ The purpose of this document is to reconcile table related information present i
    data_recon_house_other_place
    data_recon_death
    data_recon_injured_missing
+   updates
 
