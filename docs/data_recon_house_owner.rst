@@ -1,5 +1,5 @@
-Household table
-===============
+House Owner table
+=================
 
 Summary
 -------
