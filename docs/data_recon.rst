@@ -11,4 +11,5 @@ The purpose of this document is to reconcile table related information present i
    data_recon_bldng
    data_recon_individual
    data_recon_hhd
+   data_recon_house_owner
 
