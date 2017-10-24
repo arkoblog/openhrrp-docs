@@ -1,0 +1,10 @@
+,colnames(df_house_other_place),Present in data dictionary?,Name,Type,Range,Comments
+1,dist,,,,,
+2,vcode,,,,,
+3,vdcmun,,,,,
+4,ward,,,,,
+5,EA,,,,,
+6,howner_sn,,,,,
+7,haop_sn,No,,,,No idea what this column means
+8,oth_dist,No,,,,Looks like the district code in which the other house is present
+9,conditn,Yes,Condition of house,Categorical,1-3,

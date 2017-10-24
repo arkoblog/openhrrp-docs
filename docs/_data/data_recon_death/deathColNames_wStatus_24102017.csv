@@ -1,0 +1,14 @@
+colnames(df_death),Present in Data Dictionary?,Name,Type,Range,Comments
+dist,,,,,
+vcode,,,,,
+vdcmun,,,,,
+ward,,,,,
+EA,,,,,
+howner_sn,,,,,
+house_sn,,,,,
+hhd_sn,,,,,
+death_sn,No,,ID,,Looks like a member sn assigned to a dead individual
+gender,Yes,,Categorical,1-3,
+age,No,,,,"Age has weird numbers associated with it, eg. 139"
+register,Yes,Death Registration,Categorical,1-2,Possibly implies has death been registered?
+reason,Yes,Cause of Death,Categorical,1-2,

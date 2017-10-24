@@ -1,0 +1,18 @@
+,colnames(df_main_table),Present in data dictionary?,Name,Type,Range,Comment
+1,dist,,,,,
+2,vcode,,,,,
+3,vdcmun,,,,,
+4,ward,,,,,
+5,EA,,,,,
+6,howner_sn,,,,,
+7,howner_num,,,,,
+8,own_res_sme,Yes,Is owner and respondent same?,Categorical,1-2,
+9,gender,Yes,Gender of respondent,Categorical,1-3,
+10,relation,Yes,Relationship pf respondent to house owner,Categorical,2-9,Will have NAS if respondent = owner
+11,howner_reason,Yes,Reason for not interviewing house owner,Categorical,1-4,Will have NAS if respondent = owner
+12,rhouse_sa,No,,,,Sazal Dai : House in same area?
+13,rhouse_da,No,,,,Sazal Dai : House in different area?
+14,ndam_c,No,,,,
+15,pdam_c,No,,,,
+16,cdam_c,No,,,,
+17,soc_mob,Yes,Is social mobilizer present?,Categorical,1-2,Data has Nas
