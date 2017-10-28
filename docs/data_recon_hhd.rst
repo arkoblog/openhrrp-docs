@@ -12,7 +12,7 @@ Summary
 		c. Source of cooking fuel (**fir_pre**, **fir_pos**)
 		d. Source of light (**lit_pre**, **lit_pos**)
 		e. Type of toilet (**toilet_pre**, **toilet_pos**)
-		d. Type of fixed assets owned (**ast_pre**, **ast_pos**), this variable is also a multiselect variable (refer to 3.)
+		f. Type of fixed assets owned (**ast_pre**, **ast_pos**), this variable is also a multiselect variable (refer to 3.)
 
  		One thing that we will need to pay attention to is regarding the way in which we aggregate this information at a building level, given that there may be more than one HHD per building.
 
