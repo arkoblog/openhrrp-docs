@@ -11,10 +11,5 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   about_the_project
-   questions_and_concerns
-   data_formatting_primer
-   data_recon
-   tentative_plan
-
-
+   1_introduction
+   2_data_sensemaking

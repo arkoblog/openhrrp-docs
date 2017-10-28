@@ -1,8 +1,13 @@
-##############################################
-Housing Reconstruction Data: Formatting Primer
-##############################################
+###################################################################
+Housing Reconstruction Data: Notes on overall data structure/format
+###################################################################
 
+:Authors:
+	Bradley Wilson
 
+:Version: 1.0.0 as of 2017/10/22
+
+.. _data-notes:
 Data Structure
 ##############
 
@@ -35,7 +40,7 @@ Depending on how one wants to link administrative codes to polygon boundaries, t
 Survey-Specific Coding
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Beyond the administrative codes, there are an additional four serial codes that may be attached to each record of data. These codes establish the inter-table relationships and predicate all join operations. Unless otherwise specified, all codes start at one, and reset at the next nested level. 
+Beyond the administrative codes, there are an additional four serial codes that may be attached to each record of data. These codes establish the inter-table relationships and predicate all join operations. Unless otherwise specified, all codes start at one, and reset at the next nested level.
 
 For example, house serial number increments when a house owner has multiple buildings under ownership, and resets to one for the next house owner. Therefore, these extra serial codes construct a hierarchical structure extending beyond the most detailed administrative level (district+vdc/mun+ward+ea). The survey specific codes are as follows:
 
@@ -48,7 +53,7 @@ For example, house serial number increments when a house owner has multiple buil
 		* *Increments from*: howner_sn
 		* *Connects to*: hhd_sn
 		* *Comments*: This code identifies the building number for a particular house owner. It allows households to be tied to a specific building. Most buildings have a single household tied to them, but some have none and others have multiple.
-	
+
 	3. **hhd_sn: Household Serial Number**
 		* *Increments from*: house_sn
 		* *Connects to*: mem_sn
@@ -75,13 +80,13 @@ operations are outlined below:
 
 Households to Buildings
 ^^^^^^^^^^^^^^^^^^^^^^^
-It may be desired to add household information to building records. In this situation, two cases must be handled. 
-	
-	1. Situations where multiple households are tied to a single building record. 
-	2. Situations where no households are tied to a building record. 
+It may be desired to add household information to building records. In this situation, two cases must be handled.
+
+	1. Situations where multiple households are tied to a single building record.
+	2. Situations where no households are tied to a building record.
 
 For case (1), data can be aggregated (sum, mean, median, mode, etc.) or pulled from a single household. Each column can be handled
-differently, if desired (it might make sense to take the median income level, but sum household members for example). 
+differently, if desired (it might make sense to take the median income level, but sum household members for example).
 
 For case (2), building records without household data can be dropped, or left in the new table with empty columns.
 
@@ -107,9 +112,3 @@ After working with this dataset for four months, here are a few of my recommenda
 
 
 	3. Consider data usage in formatting decisions. This is particularly relevant where duplications are being added to the data. For example, if buildings are joined to households with a left join, duplicate building records will be added. If building statistics are calculated from this new table (without accounting for duplicates), they will not be correct. Ultimately this is also the responsibility of the user, but consider what might be intuitive and might not be.
-
-
-:Authors:
-	Bradley Wison
-
-:Version: 1.0 of 2017/10/22
