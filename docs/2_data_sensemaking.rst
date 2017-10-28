@@ -1,6 +1,6 @@
-#################
-Data Sense-making
-#################
+##########################
+Phase 1: Data Sense-making
+##########################
 
 The purpose of the sense-making exercise is to thoroughly examine the housing reconstruction data in order to:
 

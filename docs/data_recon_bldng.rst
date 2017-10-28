@@ -1,11 +1,13 @@
 Building table
-=============
+======+=======
+
+**Note: This document captures information that may have been updated. Please refer to the :doc:`/2a_updates` section instead.**
 
 Summary
 -------
 
 	1. Codes vs. Labels: The current dataset has codes assigned for each value of a categorical variable. For instance, the variable **gd_floor** which indicates the type of ground floor has the following codes associated with it:
-		
+
 		a. 1, which denotes "Mud"
 		b. 2, which denotes "Brick/Stone"
 		c. 3, which denotes "Timber"
@@ -28,23 +30,23 @@ Summary
 	2. Variable Types: A brief examination of the survey questionnaire suggests that questions that were asked fall in either one of the following two categories:
 
 		a. Single select questions: Where the surveyor selects only one out of many options provided.
-		b. Multi select questions: Where the surveyour can select one or more answers out of the many options provided.   
+		b. Multi select questions: Where the surveyor can select one or more answers out of the many options provided.
 
 		For every single select question in the survey, there is only one corresponding column in the data that capture the answer for a particular building. Data cleaning effort for these variables is minimal, depending on the route we take as per point (1)
 
 	3. Multi select questions: Some of the questions, because of their multiselect nature has more than one column associated with them):
 
-		a. Superstructure type has 11 columns ranging from **sup_str1** to **sup_str11** 
-		b. Type of geotechnical risk has 7 columns ranging from **gersk_ls1** to **gersk_ls3** 
-		c. Type of secondary use has 10 columns ranging from **secuse_ls1** to **secuse_ls10** 
+		a. Superstructure type has 11 columns ranging from **sup_str1** to **sup_str11**
+		b. Type of geotechnical risk has 7 columns ranging from **gersk_ls1** to **gersk_ls3**
+		c. Type of secondary use has 10 columns ranging from **secuse_ls1** to **secuse_ls10**
 
 		For these questions, additional data cleaning work would be required to make information more usable.
 
 
 	4. Missing Definitions: Not all of the columns had their corresponding definitions in the data dictionary provided by CBS. Whilst is was clear what information the column contained for a few of the columns (dist, vcode, vdcmun, ward, EA, howner_sn, house_sn, legl_own) based on their names, further information is needed for the following columns:
 
-		a. **delam1**, 
-		b. **delam2**, 
+		a. **delam1**,
+		b. **delam2**,
 		c. **delam3**,
 		d. **fam_cn**,
 		e. **hgt_pre**,
@@ -75,7 +77,7 @@ Summary
 		l. **parapet1**, **parapet2**, **parapet3**
 		m. **clad_glz1**, **clad_glz2**, **clad_glz3**
 		n. **clad_glz1**, **clad_glz2**, **clad_glz3**
-		 
+
 		Furthermore, information for "No damage" is contained as a categorical value within the first out of three variable, as illustrated by the picure below.
 
 		.. image:: _data/data_recon_building/dm_fndtn1.png
@@ -83,7 +85,7 @@ Summary
 		Suggestions for improvement:
 
 		1. Rename column headers to include severity ie. dm_fndtn_severe, dm_fndtn_moderate, dm_fndtn_insignfcant
-		2. Seperate information about no damage to a separate flag variable, dm_fndtn_flag 
+		2. Seperate information about no damage to a separate flag variable, dm_fndtn_flag
 
 
 Methodology

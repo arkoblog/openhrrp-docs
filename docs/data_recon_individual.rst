@@ -1,6 +1,8 @@
 Individual table
 ================
 
+**Note: This document captures information that may have been updated. Please refer to the :doc:`/2a_updates` section instead.**
+
 Summary
 -------
 
