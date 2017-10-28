@@ -9,7 +9,7 @@ Welcome to openhrrp concept notes's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    1_introduction
    2_data_sensemaking
