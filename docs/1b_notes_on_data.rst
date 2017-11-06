@@ -104,6 +104,8 @@ Recommendations
 
 	1. Determine a coding structure and stick to it. Creating a single code that merges all administrative levels together is recommended. One might even consider creating a few codes at different levels. It doesn’t matter so much what the coding structure is as long as it is consistent.
 
+
 	2. Decide how to handle the case of multi-households. Perhaps using a combination of modes, sums, and medians to create a ‘household profile’ of sorts. We're not sure this is the best option (it may be preferable to use a single household’s data if the households are similar). It might also be worth flagging the households that are using aggregated data to let users know where household data is actually a single household and where it isn’t. Perhaps by counting the total households in a particular building and adding that number as a column.
+
 
 	3. Consider data usage in formatting decisions. This is particularly relevant where duplications are being added to the data. For example, if buildings are joined to households with a left join, duplicate building records will be added. If building statistics are calculated from this new table (without accounting for duplicates), they will not be correct. Ultimately this is also the responsibility of the user, but consider what might be intuitive and might not be.
