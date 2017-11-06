@@ -28,8 +28,8 @@ Representative Variable Name
 Is the column name representative of the information contained within it? If not, what would be a better name for the column?
 
 
-Summary and Findings
-^^^^^^^^^^^^^^^^^^^^
+Next Steps
+^^^^^^^^^^
 Based on the exercise above the following tasks need to performed in the data restructuring exercise:
 
 Generation of Primary and Composite Keys

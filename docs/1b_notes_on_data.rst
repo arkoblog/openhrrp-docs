@@ -100,10 +100,9 @@ Individuals to Households
 The individual data contains additional information that may help characterize the socio-economic position of households. Joining the individual table to the household table is the most straight-forward of the join operations, as there are no special cases (as far as I am aware). However, this process requires calculating summary statistics at the household level. Most commonly, this will involve binary presence variables (i.e. disabled member present yes/no), counts (i.e. number of members <5), or percentages (i.e. % members abroad).
 
 
-Personal Recommendations
-########################
+Recommendations
+###############
 
-After working with this dataset for four months, here are a few of my recommendations.
 
 	1. Determine a coding structure and stick to it. I would recommend creating a single code that merges all administrative levels together so you can refer to a single code. You might even consider creating a few codes at different levels. It doesn’t matter so much what the coding structure is as long as it is consistent.
 

@@ -36,10 +36,10 @@ Highlighted below are implication(s) of the same:
   2. Point 1 will then lead to a situation where earthquake damage data that is aggregated at a municipality/ward level becomes slightly inaccurate/unreliable.
 
 
-2. Phase-wise execution
-#######################
+2. Census vs Verification model of survey execution
+###################################################
 
-In addition, the phase wise nature of execution also brings forth the following question(s) that need to be addressed:
+In addition, the phase wise nature of survey execution also brings forth the following question(s) that need to be addressed:
 
   1. Even though the survey was conducted in phases, the data provided comprises a single table for all of the buildings. Are the district/vdc/mun codes used in the data all based on the old administrative boundaries?
 
@@ -48,8 +48,8 @@ Highlighted below are some implications(s) of the same:
   1. Statistics have to be presented differently for districts in Phase 1 (which comprises all buildings in the given districts and paints a fuller socio-economic picture) than for districts that were surveyed in the later phases.
 
 
-3. Changing validation rules
-############################
+3. Changing questionnaire and associated rules
+##############################################
 
 This is an indirect consequence of the phase wise nature of the project. Because of the fact that project requirements were constantly evolving over time, validations rules used during data collection did the same, for example,
 
@@ -60,13 +60,13 @@ This has the following implication(s):
 
   1. Unexplained null values and blank entries for certain compulsory questions at the early stages of the survey.
 
-4. Scale of execution
-######################
+..  4. Scale of execution
+..  ######################
 
-Given the sheer scale at which the survey was conducted (the project captured data for close to ~1.06MM buildings, ~5.77MM individuals), and the varying nature of the terrain in which it was carried out, its not unusual to expect a few variables with blank entries due to unexplained factors such as, but not limited to network disruption, device problems, server loads, etc.
-Missing values for some variables have been observed in the data, however it is important to note that:
+..  Given the sheer scale at which the survey was conducted (the project captured data for close to ~1.06MM buildings, ~5.77MM individuals), and the varying nature of the terrain in which it was carried out, its not unusual to expect a few variables with blank entries due to unexplained factors such as, but not limited to network disruption, device problems, server loads, etc.
+    Missing values for some variables have been observed in the data, however it is important to note that:
 
-1. The proportion of missing values is very low (~ less than 1%) for most columns that DO have missing values.
-2. Important variables (in the context of damage assessment) such as Damage Grade, Status of the Damage, Building Structure etc. have no missing values.
+..  1. The proportion of missing values is very low (~ less than 1%) for most columns that DO have missing values.
+..  2. Important variables (in the context of damage assessment) such as Damage Grade, Status of the Damage, Building Structure etc. have no missing values.
 
-However, if there are cases where the number of missing values are significantly high, investigation into why that may happen will be carried out in collaboration with CBS.
+..  However, if there are cases where the number of missing values are significantly high, investigation into why that may happen will be carried out in collaboration with CBS.

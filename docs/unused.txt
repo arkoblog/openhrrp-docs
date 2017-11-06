@@ -1,0 +1,10 @@
+..  4. Scale of execution
+..  ######################
+
+..  Given the sheer scale at which the survey was conducted (the project captured data for close to ~1.06MM buildings, ~5.77MM individuals), and the varying nature of the terrain in which it was carried out, its not unusual to expect a few variables with blank entries due to unexplained factors such as, but not limited to network disruption, device problems, server loads, etc.
+    Missing values for some variables have been observed in the data, however it is important to note that:
+
+..  1. The proportion of missing values is very low (~ less than 1%) for most columns that DO have missing values.
+..  2. Important variables (in the context of damage assessment) such as Damage Grade, Status of the Damage, Building Structure etc. have no missing values.
+
+..  However, if there are cases where the number of missing values are significantly high, investigation into why that may happen will be carried out in collaboration with CBS.
