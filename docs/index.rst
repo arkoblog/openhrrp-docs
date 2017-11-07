@@ -9,7 +9,7 @@ Welcome to NHRP Open Data Portal's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    1_introduction
    2_data_sensemaking
