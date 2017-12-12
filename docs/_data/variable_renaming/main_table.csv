@@ -1,0 +1,12 @@
+Old Name,New Name
+howner_num,count_house_owners
+own_res_sme,is_owner_respondent_same
+gender,respondent_gender
+relation,respondent_relation_to_house_owner
+reason,reason_house_owner_is_absent
+rhouse_sa,count_residential_houses_same_area
+rhouse_da,count_residential_houses_different_area
+ndam_c,count_non_residential_house_no_damage
+pdam_c,count_non_residential_house_partial_damage
+cdam_c,count_non_residential_house_complete_damage
+soc_mob,is_social_mobilizer_present

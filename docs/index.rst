@@ -13,3 +13,4 @@ Contents:
 
    1_introduction
    2_data_sensemaking
+   3_data_restructuring

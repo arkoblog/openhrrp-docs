@@ -1,0 +1,44 @@
+Variable,Definition
+has_damage_foundation,Flag variable that indicates if there was any damage to foundation.
+has_damage_roof,Flag variable that indicates if there was any damage to the roof.
+has_damage_corner_separation,Flag variable that indicates if there was any corner separation.
+has_damage_diagonal_cracking,Flag variable that indicates if there was any diagonal cracking
+has_damage_in_plane_failure,Flag variable that indicates if there was any in plane failure
+has_damage_out_of_plane_failure,Flag variable that indicates if there was any out of plane failure
+has_damage_out_of_plane_walls_ncfr_failure,Flag variable that indicates if there was any out of plane failure in walls nt carrying floor or roof
+has_damage_gable_failure,Flag variable that indicates if there was any gable failure
+has_damage_delamination_failure,Flag variable that indicates if there was any delamination failure
+has_damage_column_failure,Flag variable that indicates if there was any column failure
+has_damage_beam_failure,Flag variable that indicates if there was any beam failure
+has_damage_infill_partition_failure,Flag variable that indicates if thre was any infill/partition failure
+has_damage_staircase,Flag variable that indicates if building has damage to staircase
+has_damage_parapet,Flag variable that indicates if building has damage to parapet
+has_damage_cladding_glazing,Flag variable that indicates if building has any cladding/glazing related damage.
+has_superstructure_adobe_mud,Flag variable that indicates if building has an adobe/mud superstructure
+has_superstructure_mud_mortar_stone,Flag variable that indicates if building has mud mortar – stone superstructure
+has_superstructure_stone,Flag variable that indicates if building has superstructure
+has_superstructure_cement_mortar_stone,Flag variable that indicates if building has cement mortar – stone superstructure
+has_superstructure_mud_mortar_brick,Flag variable that indicates if building has mud mortar – brick superstructure
+has_superstructure_cement_mortar_brick,Flag variable that indicates if building has cement mortar – brick superstructure
+has_superstructure_timber,Flag variable that indicates if building has timber superstructure
+has_superstructure_bamboo,Flag variable that indicates if building has bamboo superstructure
+has_superstructure_rc_non_engineered,Flag variable that indicates if building has cement RC-non engineered superstructure
+has_superstructure_rc_engineered,Flag variable that indicates if building has cement RC-engineered superstructure
+has_superstructure_other,Flag variable that indicates if building has any other superstructure
+has_geotechnical_risk_land_settlement,Flag variable that indicates if building has geotechnical risk of type land settlement
+has_geotechnical_risk_fault_crack,Flag variable that indicates if building has geotechnical risk of fault cracking
+has_geotechnical_risk_liquefaction,Flag variable that indicates if building has geotechnical risk of type liquefaction
+has_geotechnical_risk_landslide,Flag variable that indicates if building has geotechnical risk of type landslide
+has_geotechnical_risk_rock_fall,Flag variable that indicates if building has geotechnical risk of type rockfall
+has_geotechnical_risk_flood,Flag variable that indicates if building has geotechnical risk of type flood
+has_geotechnical_risk_other,Flag variable that indicates if building has geotechnical risk of any other type
+has_secondary_use_agriculture,Flag variable that indicates if building has been secondarily used for agriculture
+has_secondary_use_hotel,Flag variable that indicates if building has been secondarily used for a hotel
+has_secondary_use_rental,Flag variable that indicates if building has been secondarily used for rental
+has_secondary_use_institution,Flag variable that indicates if building has been secondarily used for institutions
+has_secondary_use_school,Flag variable that indicates if building has been secondarily used for school
+has_secondary_use_industry,Flag variable that indicates if building has been secondarily used for industry
+has_secondary_use_health_post,Flag variable that indicates if building has been secondarily used for health post
+has_secondary_use_government_office,Flag variable that indicates if building has been secondarily used for a government office
+has_secondary_use_police,Flag variable that indicates if building has been secondarily used for police work
+has_secondary_use_other,Flag variable that indicates if building has any other secondary use

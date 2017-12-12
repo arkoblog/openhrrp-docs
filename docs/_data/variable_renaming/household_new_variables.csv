@@ -1,0 +1,31 @@
+Variable,Definition
+is_recipient_rahat_15k,Flag variable that indicates if household is a recipient of Rahat – 15K
+is_recipient_rahat_10k,Flag variable that indicates if household is a recipient of Rahat – 10K
+is_recipient_rahat_200k,Flag variable that indicates if household is a recipient of Rahat – 200K
+is_recipient_rahat_social_security_3k,Flag variable that indicates if household is a recipient of Rahat – Social Security 3K
+is_recipient_rahat_none,Flag variable that indicates if household is a not a recipient of Rahat
+is_ineligible_rahat,Flag variable that indicates if household is ineligible for Rahat
+has_asset_land_pre_eq,Flag variable that indicates if the household had land before the earthquake
+has_asset_tv_pre_eq,Flag variable that indicates if the household had TV before the earthquake
+has_asset_cable_pre_eq,Flag variable that indicates if the household had a cable connection before the earthquake
+has_asset_computer_pre_eq,Flag variable that indicates if the household had computer before the earthquake
+has_asset_internet_pre_eq,Flag variable that indicates if the household had an internet connection before the earthquake
+has_asset_telephone_pre_eq,Flag variable that indicates if the household had a telephone before the earthquake
+has_asset_mobile_phone_pre_eq,Flag variable that indicates if the household had a mobile phone before the earthquake
+has_asset_fridge_pre_eq,Flag variable that indicates if the household had a fridge before the earthquake
+has_asset_motorcycle_pre_eq,Flag variable that indicates if the household had a motorcycle before the earthquake
+has_asset_four_wheeler_family_use_pre_eq,Flag variable that indicates if the household had a four wheeler for family use before the earthquake
+has_asset_four_wheeler_commercial_use_pre_eq,Flag variable that indicates if the household had a four wheeler for commercial use before the earthquake
+has_asset_none_pre_eq,Flag variable that indicates if the household had none of the above assets before the earthquake
+has_asset_land_post_eq,Flag variable that indicates if the household had land after the earthquake
+has_asset_tv_post_eq,Flag variable that indicates if the household had TV after the earthquake
+has_asset_cable_post_eq,Flag variable that indicates if the household had a cable connection after the earthquake
+has_asset_computer_post_eq,Flag variable that indicates if the household had computer after the earthquake
+has_asset_internet_post_eq,Flag variable that indicates if the household had an internet connection after the earthquake
+has_asset_telephone_post_eq,Flag variable that indicates if the household had a telephone after the earthquake
+has_asset_mobile_phone_post_eq,Flag variable that indicates if the household had a mobile phone after the earthquake
+has_asset_fridge_post_eq,Flag variable that indicates if the household had a fridge after the earthquake
+has_asset_motorcycle_post_eq,Flag variable that indicates if the household had a motorcycle after the earthquake
+has_asset_four_wheeler_family_use_post_eq,Flag variable that indicates if the household had a four wheeler for family use after the earthquake
+has_asset_four_wheeler_commercial_post_eq,Flag variable that indicates if the household had a four wheeler for commercial use after the earthquake
+has_asset_none_post_eq,Flag variable that indicates if the household had none of the above assets after the earthquake
