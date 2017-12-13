@@ -1,0 +1,5 @@
+Old Name,New Name
+gender,gender_deceased_individual
+age,age_deceased_individual
+register,has_registered_death
+reason,reason_of_death

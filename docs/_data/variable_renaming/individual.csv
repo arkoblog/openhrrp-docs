@@ -1,0 +1,9 @@
+Old Name,New Name
+gender,gender_individual
+hh_rel,relation_to_household_head_individual
+present,presence_in_househod
+age,age_individual
+disablty,disability_individual
+brth_reg,has_registered_birth
+edu_levl,individual_education_level
+marital,individual_marital_status

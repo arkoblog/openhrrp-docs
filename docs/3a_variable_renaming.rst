@@ -99,3 +99,37 @@ In addition, the following new variables have been added to the household table.
 
 .. csv-table::
   :file: _data/variable_renaming/household_new_variables.csv
+
+
+
+Individual
+----------
+
+Variables in the individual table (apart from location and ID variables) have been renamed as per the table below.
+
+.. csv-table::
+  :file: _data/variable_renaming/individual.csv
+
+
+In addition, the following new variables have been added to the individual table.
+
+.. csv-table::
+  :file: _data/variable_renaming/individual_new_variables.csv
+
+
+Injured Missing
+---------------
+
+Variables in the injured missing table (apart from location and ID variables) have been renamed as per the table below.
+
+.. csv-table::
+  :file: _data/variable_renaming/injured_missing.csv
+
+
+Death
+-----
+
+Variables in the death table (apart from location and ID variables) have been renamed as per the table below.
+
+.. csv-table::
+  :file: _data/variable_renaming/death.csv

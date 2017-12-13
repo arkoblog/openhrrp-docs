@@ -1,0 +1,10 @@
+Variable,Definition
+has_social_security_elder_citizen,Flag variable that indicates if individual has received social security as an elder citizen
+has_social_security_single_woman,Flag variable that indicates if individual has received social security as a single woman
+has_social_security_handicap,Flag variable that indicates if individual has received handicap related social securit
+has_social_security_extinct_caste,Flag variable that indicates if individual has received social security for being part of an extinct caste
+has_social_security_child_security,Flag variable that indicates if individual has received social security on behalf of child security
+has_social_security_pension,Flag variable that indicates if individual has received social security in the form of pension
+has_social_security_other,Flag variable that indicates if individual has received any other social security benefits
+has_social_security_none,Flag variable that indicates if individual has received no social security
+has_social_security_not_applicable,Flag variable that indicates if individual is not applicable for social security benefits
